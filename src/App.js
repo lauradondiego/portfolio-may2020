@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from "../src/navbar/NavBar"
+import Menu from "../src/navbar/NavBar"
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <h1> hi</h1>
-          < NavBar />
+          < Menu />
         </header>
       </div >
     </>
