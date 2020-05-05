@@ -5,49 +5,31 @@ import bf_demo from "./assets/bf_demo.png"
 import ng_logo from "./assets/ng_logo.png"
 import ng_demo from "./assets/ng_demo.png"
 
+import "../css/Projects.css"
+
 export default class Projects extends Component {
     render() {
         return (
             <>
                 <h1>PROJECTS</h1>
-                <div className="bf-images">
-                    <Reveal animated='fade'>
-                        <Reveal.Content visible>
-                            <Image src={bf_logo} />
-                        </Reveal.Content>
-                        <Reveal.Content hidden>
-                            <Grid columns={2}>
-                                <Grid.Column>
-                                    <Image src={bf_demo} size='small' fluid
-                                        label={{
-                                            as: 'a',
-                                            color: 'black',
-                                            content: 'Hotel',
-                                            icon: 'hotel',
-                                            ribbon: true,
-                                        }}
-                                        src='/images/wireframe/image.png' />
-                                </Grid.Column>
+                <div class="grid">
+                    <figure class="effect-sadie">
+                        <img src={bf_logo} alt="img01" />
+                        <figcaption>
+                            <h2>Better <span>Professor</span></h2>
+                            <p>Lily likes to play with crayons and pencils</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
 
-                            </Grid>
-                        </Reveal.Content>
-                        <h2>Better Professor</h2>
-                    </Reveal>
-
-
-                </div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <div className="ng-images">
-                    <Reveal animated='fade'>
-                        <Reveal.Content visible>
-                            <Image src={ng_logo} />
-                        </Reveal.Content>
-                        <Reveal.Content hidden>
-                            <Image src={ng_demo} size='small' />
-                        </Reveal.Content>
-                    </Reveal>
+                    <figure class="effect-sadie">
+                        <img src={ng_logo} alt="img01" />
+                        <figcaption>
+                            <h2>Net <span>Giver</span></h2>
+                            <p>Lily likes to play with crayons and pencils</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
                 </div>
             </>
         )
