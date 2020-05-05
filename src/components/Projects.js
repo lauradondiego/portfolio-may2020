@@ -27,7 +27,7 @@ export default class Projects extends Component {
                         <img src={bf_logo} alt="img01" />
                         <figcaption>
                             <h2>Better <span>Professor</span></h2>
-                            <p>organization app for professors and students to facilitate message retrieval, keep track of important due dates, project statuses, and letters of recommendation. </p>
+                            <p>facilitate message retrieval, keep track of important due dates, project statuses, and letters of recommendation. </p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
