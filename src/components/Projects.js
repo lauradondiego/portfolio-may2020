@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Image, Reveal } from 'semantic-ui-react'
+import { Image, Reveal, Grid } from 'semantic-ui-react'
 import bf_logo from "./assets/bf_logo.png"
 import bf_demo from "./assets/bf_demo.png"
 import ng_logo from "./assets/ng_logo.png"
@@ -16,9 +16,25 @@ export default class Projects extends Component {
                             <Image src={bf_logo} />
                         </Reveal.Content>
                         <Reveal.Content hidden>
-                            <Image src={bf_demo} size='small' />
+                            <Grid columns={2}>
+                                <Grid.Column>
+                                    <Image src={bf_demo} size='small' fluid
+                                        label={{
+                                            as: 'a',
+                                            color: 'black',
+                                            content: 'Hotel',
+                                            icon: 'hotel',
+                                            ribbon: true,
+                                        }}
+                                        src='/images/wireframe/image.png' />
+                                </Grid.Column>
+
+                            </Grid>
                         </Reveal.Content>
+                        <h2>Better Professor</h2>
                     </Reveal>
+
+
                 </div>
                 <br></br>
                 <br></br>
