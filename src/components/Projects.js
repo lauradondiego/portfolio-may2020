@@ -13,23 +13,26 @@ export default class Projects extends Component {
             <>
                 <h1>PROJECTS</h1>
                 <div class="grid">
-                    <figure class="effect-sadie">
-                        <img src={bf_logo} alt="img01" />
-                        <figcaption>
-                            <h2>Better <span>Professor</span></h2>
-                            <p>Lily likes to play with crayons and pencils</p>
-                            <a href="#">View more</a>
-                        </figcaption>
-                    </figure>
 
                     <figure class="effect-sadie">
                         <img src={ng_logo} alt="img01" />
                         <figcaption>
                             <h2>Net <span>Giver</span></h2>
-                            <p>Lily likes to play with crayons and pencils</p>
+                            <p>simplify all past, present, upcoming work orders, and assigned projects, in one convenient and organized place.</p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
+
+                    <figure class="effect-sadie">
+                        <img src={bf_logo} alt="img01" />
+                        <figcaption>
+                            <h2>Better <span>Professor</span></h2>
+                            <p>organization app for professors and students to facilitate message retrieval, keep track of important due dates, project statuses, and letters of recommendation. </p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+
+
                 </div>
             </>
         )

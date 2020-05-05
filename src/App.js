@@ -11,14 +11,12 @@ function App() {
   return (
     <>
       <div className="App">
-        <header className="App-header">
-          < Menu />
-          < Welcome />
-          <Projects />
-          <Bio />
-          <Contact />
-          {/* <Test /> */}
-        </header>
+        < Menu />
+        < Welcome />
+        <Projects />
+        <Bio />
+        <Contact />
+        {/* <Test /> */}
       </div >
     </>
   );
