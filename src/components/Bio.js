@@ -5,9 +5,9 @@ export default class Bio extends Component {
     render() {
         return (
             <>
-                <div className="bio">
+                <div className="bio-class">
                     <h1>BIO</h1>
-                    <p>ADD RESUME LINK</p>
+                    <h2>ADD RESUME LINK</h2>
                     <h2> ** add upcoming FEAR CITY, business owner ON THE LEASH etc **
                     In 2018 I embarked on an exciting journey to New York City, and took
             Intro to Python head on <Label>print("Hello World")</Label> It

@@ -11,14 +11,14 @@ export default class Projects extends Component {
     render() {
         return (
             <>
-                <h1>PROJECTS</h1>
-                <div class="grid">
+                <div className="grid">
+                    <h1>PROJECTS</h1>
 
                     <figure class="effect-sadie">
                         <img src={ng_logo} alt="img01" />
                         <figcaption>
                             <h2>Net <span>Giver</span></h2>
-                            <p>simplify all past, present, upcoming work orders, and assigned projects, in one convenient and organized place.</p>
+                            <p>simplify all past, present, &amp; upcoming work orders, and assigned projects, in one convenient and organized place.</p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
@@ -31,8 +31,6 @@ export default class Projects extends Component {
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
-
-
                 </div>
             </>
         )
@@ -40,5 +38,3 @@ export default class Projects extends Component {
 
     }
 }
-
-// lool up REVEAL and FADE in semantic ui for project pic previews

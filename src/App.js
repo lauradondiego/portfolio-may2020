@@ -13,9 +13,9 @@ function App() {
       <div className="App">
         < Menu />
         < Welcome />
-        <Projects />
-        <Bio />
-        <Contact />
+        < Projects />
+        < Bio />
+        < Contact />
         {/* <Test /> */}
       </div >
     </>
