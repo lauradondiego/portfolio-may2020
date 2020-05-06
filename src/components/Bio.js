@@ -34,8 +34,8 @@ export default class Bio extends Component {
                     and can make quick decisions under pressure.
 
                     I am career focused and eager to learn new technologies and
-                    languages. The most rewarding feeling is seeing something I have
-            created come to life!</h2>
+                    languages. As a successful entrepreneuer and well balanced individual, I am confident I can take on any challenge in the tech world
+            and am excited to create.</h2>
                 </div>
             </>
         )
