@@ -8,20 +8,27 @@ export default class Bio extends Component {
                 <div className="bio-class">
                     <h1>BIO</h1>
                     <h2>ADD RESUME LINK</h2>
-                    <h2> ** add upcoming FEAR CITY, business owner ON THE LEASH etc **
-                    In 2018 I embarked on an exciting journey to New York City, and took
+                    <h2>
+                        In 2018 I embarked on an exciting journey to New York City, and took
             Intro to Python head on <Label>print("Hello World")</Label> It
             has been quite the adventure since.
                     My curiousty led me to try this new thing that I had only heard about, my spontaneous side urged me to quit my 9-5 and pursue it
                     full time, and my dedication is what made me never look back.
 
-                    When I'm not coding, I enjoy spending time at home with my pets, reading mystery and horror novels, seeking out new
-                    restaurants, making memories with friends, and working on hobbies and all types of projects from coding to crafting.
+                    When I'm not coding, I am emersed in my streetwear brand, learning new design tools, social media marketing,
+                    and brainstorming new sketch ideas for upcoming launches. The most rewarding feeling is seeing something I have
+            created come to life!
 
-                    I've traveled around the world and am fascinated by culture, food,
-                    and technology. I lived in Africa at a wildlife rehabilitation
-                    center, making new friends, taking on leadership roles, and most
-                    importantly, saving the lives of Africa's wildlife and fighting for
+                    I enjoy volunteering at my local SPCA animal shelter, as well as spending time with my own pets.
+                    I like reading mystery and horror novels, listening to podcasts about outter space, and watching Earth documentaries.
+
+                    My typical weekends include seeking out new
+                    restaurants, competitive game nights with friends, and traveling whenever I can.
+
+                    Throughout my extensive travels, I have become fascinated by culture, food,
+                    and technology. A defining moment in my life was when I lived in Africa at a wildlife rehabilitation
+                    center. I overcame challenges, made lifelong friends, took on leadership roles, and most
+                    importantly, aided in saving the lives of Africa's wildlife.
 
                     I am passionate and not afraid to take risks, yet am level headed
                     and can make quick decisions under pressure.
