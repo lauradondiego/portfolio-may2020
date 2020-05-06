@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
-import Menu from "../src/navbar/NavBar"
+import NavBar from "../src/navbar/NavBar"
 //check out reveal in semantic ui for projects
 import Welcome from "../src/components/Welcome"
 import Projects from "../src/components/Projects"
@@ -14,18 +14,24 @@ function App() {
   return (
     <>
       <div className="App">
-        < Menu />
+        < NavBar />
         < Welcome />
         < Projects />
         < Bio />
         < Contact />
         <BrowserRouter>
           <Switch>
-            <Route path="/netgiver" render={props => <NetGiver {...props} />} />
+            {/* <Route path="/netgiver" render={props => <NetGiver {...props} />} /> */}
             {/* <Route exact path="/NetGiver" component={NetGiver} /> */}
+            <Route exact path="/home" component={Welcome} />
+            {/* <Route path="/projects" component={Projects} /> */}
+
+            {/* <Route exact path="/welcome" render={props => <Welcome {...props} />} /> */}
+            {/* <Route path="/projects" render={props => <Projects {...props} />} />
+            <Route path="/bio" render={props => <Bio {...props} />} />
+            <Route path="/contact" render={props => <Contact {...props} />} /> */}
           </Switch>
         </BrowserRouter>
-        {/* <Test /> */}
       </div >
     </>
   );

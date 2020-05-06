@@ -1,14 +1,32 @@
-import React from 'react'
-import { Tab } from 'semantic-ui-react'
+import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
-const panes = [
-    { menuItem: 'Tab 1', render: () => <Tab.Pane>Tab 1 Content</Tab.Pane> },
-    { menuItem: 'Tab 2', render: () => <Tab.Pane>Tasd</Tab.Pane> },
-    { menuItem: 'Tab 3', render: () => <Tab.Pane>laurat</Tab.Pane> },
-]
+import Welcome from "../components/Welcome"
+import Projects from "../components/Projects"
 
-const TabExampleVerticalTabular = () => (
-    <Tab menu={{ fluid: true, vertical: true, tabular: true }} panes={panes} />
-)
+import "../css/NavBar.css"
 
-export default TabExampleVerticalTabular
+export default class NavBar extends Component {
+    render() {
+        return (
+            <>
+                <Link activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                > Projects</Link>
+
+                {/* <div className="nav">
+                    <NavLink to="/home">Home</NavLink>
+                    <NavLink to="/projects">Projects</NavLink>
+                    <NavLink to="/bio">Bio</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
+                </div> */}
+            </>
+        );
+    }
+}
+
