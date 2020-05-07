@@ -7,12 +7,14 @@ export default class NavBar extends Component {
     render() {
         return (
             <>
-                <div className="nav">
-                    <NavLink to="/welcome">Welcome</NavLink>
-                    <NavLink to="/projects">Projects</NavLink>
-                    <NavLink to="/bio">Bio</NavLink>
-                    <NavLink to="/contact">Contact</NavLink>
-                </div>
+                <nav>
+                    <ul>
+                        <NavLink to="/welcome">Welcome</NavLink>
+                        <NavLink to="/projects">Projects</NavLink>
+                        <NavLink to="/bio">Bio</NavLink>
+                        <NavLink to="/contact">Contact</NavLink>
+                    </ul>
+                </nav>
             </>
         );
     }
