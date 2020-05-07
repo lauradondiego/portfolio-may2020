@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
+import "./App.css";
+
 import NavBar from "../src/navbar/NavBar"
 //check out reveal in semantic ui for projects
 import Welcome from "../src/components/Welcome"
@@ -17,7 +19,7 @@ function App() {
         < NavBar />
         < Welcome />
         < Projects />
-        < Bio />
+        <Bio />
         < Contact />
         {/* <BrowserRouter>
           <Switch>

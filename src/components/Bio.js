@@ -5,11 +5,11 @@ export default class Bio extends Component {
     render() {
         return (
             <>
-                <div className="bio-class">
-                    <h1>BIO</h1>
-                    <h2>ADD RESUME LINK</h2>
-                    <h2>
-                        In 2018 I embarked on an exciting journey to New York City, and took
+
+                <h1>BIO</h1>
+                <h2>ADD RESUME LINK</h2>
+                <h2>
+                    In 2018 I embarked on an exciting journey to New York City, and took
             Intro to Python head on <Label>print("Hello World")</Label> It
             has been quite the adventure since.
                     My curiousty led me to try this new thing that I had only heard about, my spontaneous side urged me to quit my 9-5 and pursue it
@@ -36,7 +36,7 @@ export default class Bio extends Component {
                     I am career focused and eager to learn new technologies and
                     languages. As a successful entrepreneuer and well balanced individual, I am confident I can take on any challenge in the tech world
             and am excited to create.</h2>
-                </div>
+
 
             </>
         )
