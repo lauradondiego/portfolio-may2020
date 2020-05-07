@@ -37,6 +37,7 @@ export default class Bio extends Component {
                     languages. As a successful entrepreneuer and well balanced individual, I am confident I can take on any challenge in the tech world
             and am excited to create.</h2>
                 </div>
+
             </>
         )
     }
