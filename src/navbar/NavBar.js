@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
@@ -10,7 +10,7 @@ import Routes from "../components/Routes"
 export default class NavBar extends Component {
     render() {
         return (
-            <>
+            <nav>
                 {/* <div style={{ height: '300px', position: 'relative' }} > */}
                 <Layout fixedHeader fixedDrawer>
                     <Header title="Welcome!">
@@ -18,10 +18,10 @@ export default class NavBar extends Component {
                     </Header>
                     <Drawer title="Laura Don Diego">
                         <Navigation>
-                            <Link to="/welcome">Welcome!</Link>
-                            <Link to="/projects">Projects</Link>
-                            <Link to="/bio">Bio</Link>
-                            <Link to="/contact">Contact</Link>
+                            <NavLink to="/welcome">Welcome!</NavLink>
+                            <NavLink to="/projects">Projects</NavLink>
+                            <NavLink to="/bio">Bio</NavLink>
+                            <NavLink to="/contact">Contact</NavLink>
                         </Navigation>
                     </Drawer>
                     {/* <Content>
@@ -29,7 +29,7 @@ export default class NavBar extends Component {
                     </Content> */}
                 </Layout>
                 {/* </div> */}
-            </>
+            </nav>
         );
     }
 }

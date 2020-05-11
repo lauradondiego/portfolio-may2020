@@ -21,8 +21,8 @@ export default class Projects extends Component {
                         <figcaption>
                             <h2>Net <span>Giver</span></h2>
                             <p>simplify all past, present, &amp; upcoming work orders, and assigned projects, in one convenient and organized place.</p>
-                            <Link to="/netgiver">
-                            </Link>
+                            {/* <Link to="/netgiver">
+                            </Link> */}
                         </figcaption>
                     </figure>
 
