@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
@@ -18,15 +18,15 @@ export default class NavBar extends Component {
                     </Header>
                     <Drawer title="Laura Don Diego">
                         <Navigation>
-                            <NavLink to="/welcome">Welcome!</NavLink>
-                            <NavLink to="/projects">Projects</NavLink>
-                            <NavLink to="/bio">Bio</NavLink>
-                            <NavLink to="/contact">Contact</NavLink>
+                            <Link to="/welcome">Welcome!</Link>
+                            <Link to="/projects">Projects</Link>
+                            <Link to="/bio">Bio</Link>
+                            <Link to="/contact">Contact</Link>
                         </Navigation>
                     </Drawer>
-                    <Content>
+                    {/* <Content>
                         <Routes />
-                    </Content>
+                    </Content> */}
                 </Layout>
                 {/* </div> */}
             </>

@@ -5,16 +5,17 @@ import Welcome from "./Welcome"
 import Projects from "./Projects"
 import Contact from "./Contact"
 
-function Routes(props) {
+function Routes() {
     return (
         <div>
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={Welcome} />
                     <Route path="/projects" component={Projects} />
+                    <Route path="/contact" component={Contact} />
+
                     {/* {/* <Route path="/projects" render={props => <Projects {...props} />} /> */}
                     {/* <Route path="/upcoming" render={props => <Upcoming {...props} />} /> */}
-                    <Route path="/contact" render={props => <Contact {...props} />} />
                 </Switch>
             </BrowserRouter>
         </div>
