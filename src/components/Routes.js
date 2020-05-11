@@ -14,7 +14,7 @@ function Routes(props) {
                     <Route path="/projects" component={Projects} />
                     {/* {/* <Route path="/projects" render={props => <Projects {...props} />} /> */}
                     {/* <Route path="/upcoming" render={props => <Upcoming {...props} />} /> */}
-                    <Route path="/contact" render={props => <Contact {...props} />} /> */}
+                    <Route path="/contact" render={props => <Contact {...props} />} />
                 </Switch>
             </BrowserRouter>
         </div>
