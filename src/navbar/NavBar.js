@@ -18,8 +18,11 @@ export default class NavBar extends Component {
                     </Header>
                     <Drawer title="Laura Don Diego">
                         <Navigation>
-                            <NavLink to="/welcome">Welcome!</NavLink>
-                            <NavLink to="/projects">Projects</NavLink>
+                            <NavLink to="/">Welcome!</NavLink>
+                            <NavLink to="/projects" activeStyle={{
+                                background: 'red',
+                                color: 'white'
+                            }}>Projects</NavLink>
                             <NavLink to="/bio">Bio</NavLink>
                             <NavLink to="/contact">Contact</NavLink>
                         </Navigation>

@@ -1,5 +1,5 @@
 import React from "react"
-import { Switch, Route, BrowserRouter } from "react-router-dom"
+import { Route, Route, BrowserRouter } from "react-router-dom"
 import App from "../App"
 import Welcome from "./Welcome"
 import Projects from "./Projects"
