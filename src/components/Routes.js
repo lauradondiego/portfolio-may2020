@@ -3,6 +3,7 @@ import { Route, Switch, BrowserRouter } from "react-router-dom"
 import App from "../App"
 import Welcome from "./Welcome"
 import Projects from "./Projects"
+import Bio from "./Bio"
 import Contact from "./Contact"
 
 function Routes() {
@@ -11,10 +12,8 @@ function Routes() {
             <Switch>
                 <Route exact path="/" component={Welcome} />
                 <Route path="/projects" component={Projects} />
+                <Route path="/bio" component={Bio} />
                 <Route path="/contact" component={Contact} />
-
-                {/* {/* <Route path="/projects" render={props => <Projects {...props} />} /> */}
-                {/* <Route path="/upcoming" render={props => <Upcoming {...props} />} /> */}
             </Switch>
         </div>
     );
