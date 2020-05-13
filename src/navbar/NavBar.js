@@ -5,16 +5,28 @@ import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 
 import Routes from "../components/Routes"
-// import "../css/NavBar.css"
+import "../css/NavBar.css"
 
 export default class NavBar extends Component {
     render() {
         return (
-            <nav>
+            <>
+                <nav>
+                    <ul>
+                        <NavLink to="/welcome">Welcome</NavLink>
+                        <NavLink to="/projects">Projects</NavLink>
+                        <NavLink to="/bio">Bio</NavLink>
+                        <NavLink to="/contact">Contact</NavLink>
+                    </ul>
+                    {/* <Layout style={{ height: '300px', position: 'relative', background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) right / cover' }}>
+                    </Layout> */}
 
-                <div style={{ height: '300px', position: 'relative' }}>
-                    <Layout style={{ background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover' }}>
-                        <Header transparent title="Title" style={{ color: 'white' }}>
+                </nav>
+                {/* <div style={{ height: '300px', position: 'relative' }}>
+                    <Layout fixedDrawer style={{ background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover' }}>
+                        <Drawer>
+                            <Header transparent title="Title" style={{ color: 'black' }}>
+                            </Header>
                             <Navigation>
                                 <NavLink to="/">Welcome!</NavLink>
                                 <NavLink to="/projects" activeStyle={{
@@ -24,21 +36,11 @@ export default class NavBar extends Component {
                                 <NavLink to="/bio">Bio</NavLink>
                                 <NavLink to="/contact">Contact</NavLink>
                             </Navigation>
-                        </Header>
-                        <Drawer title="Title">
-                            <Navigation>
-                                <NavLink to="/">Welcome!</NavLink>
-                                <NavLink to="/projects" activeStyle={{
-                                    background: 'red',
-                                    color: 'white'
-                                }}>Projects</NavLink>
-                                <NavLink to="/bio">Bio</NavLink>
-                                <NavLink to="/contact">Contact</NavLink>
-                            </Navigation>
+
                         </Drawer>
                         <Content />
                     </Layout>
-                </div>
+                </div> */}
 
 
 
@@ -61,7 +63,7 @@ export default class NavBar extends Component {
 
                 {/* </Layout> */}
                 {/* </div> */}
-            </nav>
+            </>
         );
     }
 }
