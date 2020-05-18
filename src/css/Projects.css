@@ -1,3 +1,9 @@
+.projects-container {
+  margin-left: 260px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  background-color: orange;
+}
+
 .grid figure {
   position: relative;
   float: left;

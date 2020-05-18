@@ -12,7 +12,7 @@ import "../css/Projects.css"
 export default class Projects extends Component {
     render() {
         return (
-            <>
+            <div className="projects-container">
                 <div className="grid">
                     <h1>PROJECTS</h1>
 
@@ -37,7 +37,7 @@ export default class Projects extends Component {
                         </figcaption>
                     </figure>
                 </div>
-            </>
+            </div>
         )
 
 
