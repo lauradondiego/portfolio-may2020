@@ -1,10 +1,12 @@
 import React, { Component } from "react"
 import { Label, Image } from "semantic-ui-react"
 
+import "../css/bio.css"
+
 export default class Bio extends Component {
     render() {
         return (
-            <>
+            <div className="bio-container">
 
                 <h1>BIO</h1>
                 <h2>ADD RESUME LINK</h2>
@@ -38,7 +40,7 @@ export default class Bio extends Component {
             and am excited to create.</h2>
 
 
-            </>
+            </div>
         )
     }
 }
