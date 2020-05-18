@@ -1,3 +1,8 @@
+html {
+  margin-left: 260px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
 .grid figure {
   position: relative;
   float: left;
