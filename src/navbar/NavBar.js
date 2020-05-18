@@ -11,7 +11,7 @@ export default class NavBar extends Component {
     render() {
         return (
             <>
-                <nav>
+                <div className="nav">
                     <ul>
                         <NavLink to="/welcome">Welcome</NavLink>
                         <NavLink to="/projects">Projects</NavLink>
@@ -21,7 +21,7 @@ export default class NavBar extends Component {
                     {/* <Layout style={{ height: '300px', position: 'relative', background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) right / cover' }}>
                     </Layout> */}
                     {/* // TRY ADDING THE WS SCHOOLS STICKY NAV AND RENDERING COMPONENTS WITHIN A CONTENT TAG */}
-                </nav>
+                </div>
                 {/* <div style={{ height: '300px', position: 'relative' }}>
                     <Layout fixedDrawer style={{ background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover' }}>
                         <Drawer>

@@ -1,4 +1,4 @@
-nav {
+.nav {
   width: 250px;
   background-color: rgb(194, 189, 189);
   border-radius: 1.5%;
@@ -11,7 +11,7 @@ nav {
   padding-top: 20px;
 }
 
-nav ul {
+.nav ul {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -19,8 +19,16 @@ nav ul {
   font-size: 25px;
 }
 
-nav ul li {
+.nav ul a {
+  color: pink;
+}
+
+.nav ul a:hover {
+  color: black;
+}
+.nav ul a:active {
   color: blue;
+  background-color: red;
 }
 
 /* nav {
