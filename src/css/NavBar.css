@@ -26,10 +26,8 @@
 .nav ul a:hover {
   color: black;
 }
-.nav ul a:active {
-  color: blue;
-  background-color: red;
-}
+
+/* FIGURE OUT HOW TO CHANGE THE COLOR FOR AVTICE CLASS */
 
 /* nav {
   padding: 60px 30px 0px 30px;
