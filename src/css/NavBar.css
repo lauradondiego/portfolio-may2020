@@ -15,7 +15,8 @@ nav ul {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-inline-start: 2em;
+  padding: 6px 8px 6px 16px;
+  font-size: 25px;
 }
 
 nav ul li {
