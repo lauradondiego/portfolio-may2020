@@ -29,6 +29,13 @@
   color: brown;
 }
 
+.nav .nav-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* FIGURE OUT HOW TO CHANGE THE COLOR FOR AVTICE CLASS */
 
 /* nav {
