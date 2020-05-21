@@ -1,26 +1,11 @@
-import React, { Component } from "react"
+import React, { Component, useEffect, useState } from "react"
 import { Label, Image } from "semantic-ui-react"
 
 import ng_logo from "../components/assets/ng_logo.png"
 import "../css/bio.css"
 
 export default class Bio extends Component {
-    constructor(props) {
-        super(props);
-        this.plusSlides = this.plusSlides.bind(this);
-    }
-
-    // slideIndex = 1
-    // showSlides(slideIndex);
-
-    plusSlides(n) {
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        showSlides(slideIndex += n)
-        console.log('click happened');
-    }
     render() {
-
         return (
             <>
                 <div className="bio-container">
@@ -83,12 +68,12 @@ export default class Bio extends Component {
 
                         <div className="row">
                             <div className="column">
-                                <img className="demo cursor" src={ng_logo} onClick={currentSlide(1)} alt="pic1">
+                                <img className="demo cursor" src={ng_logo} onClick={(1)} alt="pic1">
 
                                 </img>
                             </div>
                             <div className="column">
-                                <img className="demo cursor" src={ng_logo} onClick={currentSlide(2)} alt="pic2">
+                                <img className="demo cursor" src={ng_logo} onClick={(2)} alt="pic2">
 
                                 </img>
                             </div>
