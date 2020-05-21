@@ -1,7 +1,8 @@
 .nav {
   width: 250px;
   background-color: rgb(194, 189, 189);
-  border-radius: 1.5%;
+  opacity: 0.6;
+  border-top-right-radius: 8%;
   height: 100%;
   position: fixed;
   z-index: 1; /* Stay on top */
@@ -20,11 +21,12 @@
 }
 
 .nav ul a {
-  color: pink;
+  color: black;
+  opacity: 5;
 }
 
 .nav ul a:hover {
-  color: black;
+  color: brown;
 }
 
 /* FIGURE OUT HOW TO CHANGE THE COLOR FOR AVTICE CLASS */
