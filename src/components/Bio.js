@@ -38,7 +38,59 @@ export default class Bio extends Component {
                     I am career focused and eager to learn new technologies and
                     languages. As a successful entrepreneuer and well balanced individual, I am confident I can take on any challenge in the tech world
             and am excited to create.</h2>
+                <div className="gallery-container">
+                    <div className="mySlides">
+                        <img src="url" alt="pic1" />
+                    </div>
+                    <div className="mySlides">
+                        <img src="url" alt="pic2" />
+                    </div>
+                    <div className="mySlides">
+                        <img src="url" alt="pic3" />
+                    </div>
+                    <div className="mySlides">
+                        <img src="url" alt="pic4" />
+                    </div>
+                    <div className="mySlides">
+                        <img src="url" alt="pic5" />
+                    </div>
 
+                    <a className="prev" onClick="plusSlides(-1)"></a>
+                    <a className="next" onClick="plusSlides(1)"></a>
+
+                    <div className="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div className="row">
+                        <div className="column">
+                            <img className="demo cursor" src="url" onClick="currentSlide(1)" alt="pic1">
+
+                            </img>
+                        </div>
+                        <div className="column">
+                            <img className="demo cursor" src="url" onClick="currentSlide(2)" alt="pic2">
+
+                            </img>
+                        </div>
+                        <div className="column">
+                            <img className="demo cursor" src="url" onClick="currentSlide(3)" alt="pic3">
+
+                            </img>
+                        </div>
+                        <div className="column">
+                            <img className="demo cursor" src="url" onClick="currentSlide(4)" alt="pic4">
+
+                            </img>
+                        </div>
+                        <div className="column">
+                            <img className="demo cursor" src="url" onClick="currentSlide(5)" alt="pic5">
+
+                            </img>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
         )
