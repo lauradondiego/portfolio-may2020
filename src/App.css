@@ -4,8 +4,9 @@ body {
 .App {
   width: 100vw;
   min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80");
+  background-size: cover;
 }
-
 
 /* @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap");
 :root {

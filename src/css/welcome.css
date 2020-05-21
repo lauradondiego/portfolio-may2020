@@ -1,7 +1,7 @@
 .welcome-container {
   margin-left: 260px; /* Same as the width of the sidebar */
   padding: 0px 10px;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 img.sticky {
