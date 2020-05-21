@@ -12,8 +12,10 @@ export default class Welcome extends Component {
             <div className="welcome-container">
                 <img className="sticky" src={welcome_img} alt="Avatar" />
                 <h1>Welcome! </h1>
-                <h1> I am an experienced Full-Stack Web Developer with a passion for creating and design, based in New Jersey. I’m available for full-time opportunities and freelance work, &amp; am open to relocating. I specialize in building JS based React Apps as well as Python, design, &amp; full-stack sites.
-                Contact Me Now link</h1>
+                <span> I am an experienced Full-Stack Web Developer with a passion for creating and design, based in New Jersey. </span>
+                <span>I’m available for full-time opportunities and freelance work, &amp; am open to relocating. </span>
+                <span>I specialize in building JS based React Apps as well as Python, design, &amp; full-stack sites.</span>
+                <span>Contact Me Now link</span>
                 <Projects />
                 <Bio />
                 <Contact />

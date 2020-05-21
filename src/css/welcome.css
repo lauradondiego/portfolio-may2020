@@ -3,6 +3,9 @@
   padding: 0px 10px;
   /* background-color: orange; */
 }
+span {
+  display: block;
+}
 
 img.sticky {
   position: -webkit-sticky; /* Safari */

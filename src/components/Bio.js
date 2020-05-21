@@ -12,6 +12,7 @@ export default class Bio extends Component {
 
                     <h1>BIO</h1>
                     <h2>ADD RESUME LINK</h2>
+                    {/* some words need to be bold or colored to stand out! */}
                     <h2>
                         In 2018 I embarked on an exciting journey to New York City, and took
             Intro to Python head on <Label>print("Hello World")</Label> It
