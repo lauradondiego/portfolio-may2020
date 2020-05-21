@@ -1,7 +1,11 @@
 .nav {
   width: 250px;
-  background-color: rgb(194, 189, 189);
-  opacity: 0.6;
+  background-color: rgba(
+    194,
+    189,
+    189,
+    0.6
+  ); /* last number sets the backgrounf opacity without changing the link or image opacity!*/
   border-top-right-radius: 8%;
   height: 100%;
   position: fixed;
