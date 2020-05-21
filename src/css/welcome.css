@@ -7,6 +7,15 @@ span {
   display: block;
 }
 
+.contact-now {
+  color: red;
+  font-style: italic;
+}
+
+.contact-now a {
+  padding-left: 10px;
+}
+
 img.sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;

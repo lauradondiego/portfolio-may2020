@@ -20,15 +20,16 @@ function Welcome() {
             <span> I am an experienced Full-Stack Web Developer with a passion for creating and design, based in New Jersey. </span>
             <span>I’m available for full-time opportunities and freelance work, &amp; am open to relocating. </span>
             <span>I specialize in building JS based React Apps as well as Python, design, &amp; full-stack sites.</span>
-            <span>Contact Me Now link</span>
-            <button
+            <span className="contact-now"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}>
                 Contact ME NOW!
-            </button>
+            
             {isShown && (
-                <div> Ill appear if working</div>
-            )}
+                <a href="mailto:lauradondiego@gmail.com">
+                    lauradondiego@gmail.com
+                </a>)}
+            </span>
             <Projects />
             <Bio />
             <Contact />
