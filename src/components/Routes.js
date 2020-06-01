@@ -5,6 +5,8 @@ import Welcome from "./Welcome"
 import Projects from "./Projects"
 import Bio from "./Bio"
 import Contact from "./Contact"
+import BetterProfessor from "./BetterProfessor"
+import NetGiver from "./NetGiver"
 
 function Routes() {
     return (
@@ -14,6 +16,8 @@ function Routes() {
                 <Route path="/projects" component={Projects} />
                 <Route path="/bio" component={Bio} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/betterprofessor" component={BetterProfessor} />
+                <Route path="/netgiver" component={NetGiver} />
             </Switch>
         </div>
     );

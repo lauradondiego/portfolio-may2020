@@ -7,7 +7,7 @@ import "../css/welcome.css"
 import { welcome_img } from "../components/assets/topbar_me.jpg"
 
 import { Link } from "react-router-dom"
-
+import BetterProfessor from "./BetterProfessor"
 import { Image, Reveal, Grid } from 'semantic-ui-react'
 import bf_logo from "./assets/bf_logo.png"
 import bf_demo from "./assets/bf_demo.png"
@@ -48,8 +48,8 @@ function Welcome() {
                     <figcaption>
                         <h2>Net <span>Giver</span></h2>
                         <p>simplify all past, present, &amp; upcoming work orders, and assigned projects, in one convenient and organized place.</p>
-                        {/* <Link to="/netgiver">
-                            </Link> */}
+                        <Link to="/netgiver">
+                            </Link>
                     </figcaption>
                 </figure>
 
