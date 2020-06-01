@@ -23,19 +23,7 @@
 }
 
 .theme-color {
-  color: blue;
-}
-
-/* span {
-  display: block;
-} */
-
-.contact-now {
-  color: red;
-  font-style: italic;
-}
-
-.contact-now a {
+  color: rgb(160, 94, 94);
   padding-left: 10px;
 }
 
