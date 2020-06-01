@@ -24,11 +24,11 @@ function Welcome() {
     return (
         <div className="welcome-container">
             <img className="sticky" src={welcome_img} alt="Avatar" />
-            <div className="headers"> <h1> Hello! /> </h1></div>
+            <div className="headers">  Hello! </div>
            
-            <span> I am an experienced Full-Stack Web Developer with a passion for creating and design, based in New Jersey. </span>
-            <span>I’m available for full-time opportunities and freelance work, &amp; am open to relocating. </span>
-            <span>I specialize in building JS based React Apps as well as Python, design, &amp; full-stack sites.</span>
+            <span> I am an experienced Web Developer with a passion for creating and design, based in NJ. 
+           I’m available for <span class="theme-color">full-time opportunities and freelance work. </span> 
+            I specialize in building JS based React Apps as well as Python, design, &amp; full-stack sites.</span>
             <span className="contact-now"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}>
@@ -41,7 +41,7 @@ function Welcome() {
             </span>
             <div className="projects-container-welcome">
             <div className="grid">
-                    <div className="headers"> <h1> Selected Works </h1></div>
+                    <div className="headers">  Selected Works </div>
 
                 <figure class="effect-sadie">
                     <img src={ng_logo} alt="img01" />
@@ -67,12 +67,12 @@ function Welcome() {
             </div>
 
             <div className="bio-container-welcome">
-                <div className="headers"> <h1> About Me </h1></div>
+                <div className="headers"> About Me </div>
                 <span> Learn more about me here link</span>
             </div>
            
             <div className="contact-container-welcome">
-                <div className="headers"> <h1> Contact Me </h1></div>
+                <div className="headers"> Contact Me </div>
                 <p>              <a href="mailto:lauradondiego@gmail.com">
                     lauradondiego@gmail.com
                 </a>

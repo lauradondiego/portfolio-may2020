@@ -14,7 +14,7 @@ export default class Projects extends Component {
         return (
             <div className="projects-container">
                 <div className="grid">
-                    <h1>Selected Works</h1>
+                    <h1>Projects</h1>
 
                     <figure class="effect-sadie">
                         <img src={ng_logo} alt="img01" />
