@@ -1,8 +1,16 @@
 .welcome-container {
+  display: flex;
+  flex-direction: column;
   margin-left: 260px; /* Same as the width of the sidebar */
   padding: 0px 10px;
   /* background-color: orange; */
 }
+
+.headers {
+  color: red;
+  padding-top: 75px;
+}
+
 span {
   display: block;
 }
@@ -21,3 +29,8 @@ img.sticky {
   position: sticky;
   top: 0;
 }
+
+/* .bio-container-welcome {
+  display: block;
+  background-color: gray;
+} */
