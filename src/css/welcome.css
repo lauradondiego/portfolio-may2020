@@ -27,6 +27,32 @@
   padding-left: 10px;
 }
 
+button {
+  border-radius: 20px;
+  border-style: hidden;
+  border-color: white;
+  border-right-color: white;
+  background-color: rgba(
+    191,
+    171,
+    171,
+    0.4
+  ); /* last number sets the backgrounf opacity without changing the link or image opacity!*/
+  padding: 6px 16px;
+}
+
+button a {
+  color: rgb(160, 94, 94);
+  font-size: 48px;
+}
+button a:hover {
+  color: black;
+}
+
+.contact-now {
+  margin-top: 25px;
+}
+
 img.sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;
