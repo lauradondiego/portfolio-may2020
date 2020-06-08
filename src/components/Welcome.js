@@ -80,25 +80,21 @@ function Welcome() {
 
             <div className="contact-container-welcome">
                 <div className="headers"> Contact Me </div>
-                <p>              <a href="mailto:lauradondiego@gmail.com">
+                <span>              <a href="mailto:lauradondiego@gmail.com">
                     lauradondiego@gmail.com
                 </a>
 
-                </p>
-                <p>
+                </span>
+                <span>
                     (908) 907-0012
-            </p>
-                <p>
-                    {<a href="https://github.com/lauradondiego">Github</a>}
-                </p>
-                <p>
-                    {<a href="https://linkedin.com/in/lauradondiego">LinkedIn</a>}
-                </p>
+            </span>
+                <span>
+                    <a href="https://github.com/lauradondiego">Github</a>
+                </span>
+                <span>
+                    <a href="https://linkedin.com/in/lauradondiego">LinkedIn</a>
+                </span>
             </div>
-            {/* what you should actually do is for the welcome page just write out different components or
-                vice versa and change the components to be different than the welcome ones */}
-
-
         </div>
     )
 }

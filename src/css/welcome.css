@@ -59,7 +59,17 @@ img.sticky {
   top: 0;
 }
 
-/* .bio-container-welcome {
-  display: block;
-  background-color: gray;
+.contact-container-welcome {
+  color: red;
+  display: flex;
+  flex-direction: column;
+}
+/* .contact-container-welcome p a {
+  color: red;
+  padding: 0px 10px;
+  margin-left: 0;
+  font-size: 50px;
+  line-height: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 } */
