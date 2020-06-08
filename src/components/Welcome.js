@@ -74,7 +74,8 @@ function Welcome() {
             </div>
             <div className="bio-container-welcome">
                 <div className="headers"> About Me </div>
-                <span> Learn more about me here link</span>
+                <span> Aside from coding, I am a nature enthusiast who loves to travel, a risk taker willing to try anything once, and a foodie looking for the next best slice. </span>
+                <span> Learn more about me <Link to="/bio">here.</Link></span>
             </div>
 
             <div className="contact-container-welcome">
