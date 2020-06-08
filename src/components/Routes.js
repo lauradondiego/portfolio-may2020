@@ -12,6 +12,8 @@ function Routes() {
     return (
         <div>
             <Switch>
+                <Route exact path="/" component={Welcome} />
+
                 <Route exact path="/welcome" component={Welcome} />
                 <Route path="/projects" component={Projects} />
                 <Route path="/bio" component={Bio} />
