@@ -22,7 +22,7 @@ import { MdTagFaces } from "react-icons/md"
 
 function Welcome() {
     const [isShown, setIsShown] = useState(false)
-
+    // LINKS SHOULD BE SPECIFIED AS A DIFFERENT COLOR THAN THE TTHEME COLORS 
     return (
         <div className="welcome-container">
             {/* <img className="sticky" src={welcome_img} alt="Avatar" /> */}

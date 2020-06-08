@@ -60,9 +60,15 @@ img.sticky {
 }
 
 .contact-container-welcome {
-  color: red;
   display: flex;
   flex-direction: column;
+}
+.contact-container-welcome a {
+  color: rgb(160, 94, 94);
+}
+
+.bio-container-welcome a {
+  color: rgb(160, 94, 94);
 }
 /* .contact-container-welcome p a {
   color: red;
