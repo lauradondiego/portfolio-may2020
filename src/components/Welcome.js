@@ -72,6 +72,8 @@ function Welcome() {
                     </figure>
                 </div>
             </div>
+
+            
             <div className="bio-container-welcome">
                 <div className="headers"> About Me </div>
                 <span> Aside from coding, I am a nature enthusiast who loves to travel, a risk taker willing to try anything once, and a foodie looking for the next best slice. </span>
