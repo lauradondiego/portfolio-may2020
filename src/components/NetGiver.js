@@ -15,22 +15,26 @@ import ng_demo from "./assets/ng_demo.png"
 import bf_logo from "./assets/bf_logo.png"
 import bf_demo from "./assets/bf_demo.png"
 
+import "../css/netgiver.css"
+
+
 export default class NetGiver extends Component {
     render() {
         return (
             <>
-                <h1> The Net Giver Work Order Management</h1>
+                <div className="net-giver-details">
 
-                <p>
-                    <FaRegCalendarAlt /> Oct 2019 - Nov 2019
-            </p>
-                <p>
-                    <FaLaptopCode /> Tech Stack: React Native, GraphQL, Node.js,
+                    <div className="headers"> The Net Giver Work Order Management</div>
+                    <span>
+                        <FaRegCalendarAlt /> Oct 2019 - Nov 2019
+            </span>
+                    <span>
+                        <FaLaptopCode /> Tech Stack: React Native, GraphQL, Node.js,
               PostgreSQL, hosted through AWS (Amazon Web Services), image
               storage through S3 Bucket
-            </p>
-                <p>
-                    <FaAngleRight />I was commissioned for a two-month project to
+            </span>
+                    <span>
+                        <FaAngleRight />I was commissioned for a two-month project to
               create the Work Order Management app for The Net Giver, a
               privately owned property management company that promotes socially
               and environmentally responsible community development. We were
@@ -45,33 +49,33 @@ export default class NetGiver extends Component {
               CEO/stakeholder of The Net Giver organization, met demands on
               time, provided thorough reports throughout the project, and
               successfully deployed the app to the Google Play store.{" "}
-                </p>
-                <p>
-                    <FaAngleRight />
-              Created details page, implemented styling using React Native stylesheets to create custom buttons and icons that allow the user to identify the status and urgency of the job            </p>
-                <p>
-                    <FaAngleRight /> Opportunity to learn Twilio for messaging, Authy, GraphQL, general React Native concepts, functionality and implementation of barcode scanning, and photo uploading
-            </p>
-                <p>
-                    <FaGithub />
-                    {
-                        <a href="https://github.com/Lambda-School-Labs/net-giver-work-order-management-fe">
-                            Repository
+                    </span>
+                    <span>
+                        <FaAngleRight />
+              Created details page, implemented styling using React Native stylesheets to create custom buttons and icons that allow the user to identify the status and urgency of the job            </span>
+                    <span>
+                        <FaAngleRight /> Opportunity to learn Twilio for messaging, Authy, GraphQL, general React Native concepts, functionality and implementation of barcode scanning, and photo uploading
+            </span>
+                    <span>
+                        <FaGithub />
+                        {
+                            <a href="https://github.com/Lambda-School-Labs/net-giver-work-order-management-fe">
+                                Repository
                 </a>
-                    }
-                </p>
-                <p>
-                    <FaGooglePlay />
-                    {
-                        <a href="https://play.google.com/store/apps/details?id=com.netgiver.workordermanager">
-                            Download
+                        }
+                    </span>
+                    <span>
+                        <FaGooglePlay />
+                        {
+                            <a href="https://play.google.com/store/apps/details?id=com.netgiver.workordermanager">
+                                Download
                 </a>
-                    }
-                </p>
-                <div className="ng-demo">
-                    <img src={ng_demo} alt="demo" />
+                        }
+                    </span>
+                    <div className="ng-demo">
+                        <img src={ng_demo} alt="demo" />
+                    </div>
                 </div>
-
 
             </>
         )

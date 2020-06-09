@@ -31,6 +31,7 @@ function Welcome() {
             <span> I am an experienced Web Developer with a passion for creating and design, based in NJ.
            I’m available for<span class="theme-color">full-time opportunities and freelance work. </span>
             I specialize in building JS based React Apps as well as Python, design, &amp; full-stack sites.</span>
+            {/* SHOULD I MENTINO AWS AWARD HERE OR MAKE NEW COMPONENT? */}
             <span className="contact-now"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}>
@@ -73,7 +74,7 @@ function Welcome() {
                 </div>
             </div>
 
-            
+
             <div className="bio-container-welcome">
                 <div className="headers"> About Me </div>
                 <span> Aside from coding, I am a nature enthusiast who loves to travel, a risk taker willing to try anything once, and a foodie looking for the next best slice. </span>
@@ -81,7 +82,7 @@ function Welcome() {
             </div>
 
             <div className="contact-container-welcome">
-                <div className="headers"> Contact Me </div>
+                <div className="headers"> Hire Me </div>
                 <span>              <a href="mailto:lauradondiego@gmail.com">
                     lauradondiego@gmail.com
                 </a>

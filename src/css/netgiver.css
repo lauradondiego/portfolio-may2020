@@ -1,0 +1,19 @@
+.net-giver-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 260px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.headers {
+  color: black;
+  font-size: 50px;
+  line-height: 50px;
+  font-family: "Raleway", sans-serif;
+  padding-top: 75px;
+  padding-bottom: 32px;
+}
