@@ -1,8 +1,8 @@
 import React, { useState, Component } from "react";
 
-import Projects from "../components/Projects"
-import Bio from "../components/Bio"
-import Contact from "../components/Contact"
+import Projects from "./Projects"
+import Bio from "./Essays"
+import Contact from "./Contact"
 import "../css/welcome.css"
 import { welcome_img } from "../components/assets/topbar_me.jpg"
 
@@ -20,7 +20,7 @@ import { MdTagFaces } from "react-icons/md"
 
 //     render() {
 
-function Welcome() {
+function Home() {
     const [isShown, setIsShown] = useState(false)
     // LINKS SHOULD BE SPECIFIED AS A DIFFERENT COLOR THAN THE TTHEME COLORS 
     return (
@@ -28,11 +28,35 @@ function Welcome() {
             {/* <img className="sticky" src={welcome_img} alt="Avatar" /> */}
             <div className="headers">  Hello! </div>
 
-            <span> I am an experienced Web Developer with a passion for creating and design, based in NJ.
-           I’m available for<span class="theme-color">full-time opportunities and freelance work. </span>
-            I specialize in building JS based React Apps as well as Python, design, &amp; full-stack sites.</span>
+            <span> I am a Full-Stack Web Developer that specializes in building JS based React Apps as well as Python, design,
+            &amp; full-stack sites.
+                  <span class="theme-color">My mission </span>
+is to bring my real world design experience and creativity to life by modernizing
+                 web and mobile applications.
+            </span>
+            <a href="https://resume.creddle.io/resume/ibr75r9gn12">Resume</a>
+
+
+            <div className="contact-container-welcome">
+                <div className="headers"> Hire Me </div>
+                <span>              <a href="mailto:lauradondiego@gmail.com">
+                    lauradondiego@gmail.com
+                </a>
+
+                </span>
+                <span>
+                    (908) 907-0012
+            </span>
+                <span>
+                    <a href="https://github.com/lauradondiego">Github</a>
+                </span>
+                <span>
+                    <a href="https://linkedin.com/in/lauradondiego">LinkedIn</a>
+                </span>
+            </div>
+            {/* maybe make LIFE come to color after loading? */}
             {/* SHOULD I MENTINO AWS AWARD HERE OR MAKE NEW COMPONENT? */}
-            <span className="contact-now"
+            {/* <span className="contact-now"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}>
                 <button> <Link to="/contact"> Say hello!</Link></button>
@@ -43,12 +67,12 @@ function Welcome() {
                     // </a>
                     <MdTagFaces />
                 )}
-            </span>
+            </span> */}
 
 
             {/* <div style={{ background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSYLwsQH948ZDf7-HsACdOEuo5Je5HrTDHLY7qZf4XFuPtawtiK&usqp=CAU")}}></div> */}
 
-            <div className="projects-container-welcome">
+            {/* <div className="projects-container-welcome">
                 <div className="grid">
                     <div className="headers">  Selected Works </div>
                     <figure class="effect-sadie">
@@ -74,33 +98,17 @@ function Welcome() {
                 </div>
             </div>
 
-
-            <div className="bio-container-welcome">
+ */}
+            {/* <div className="bio-container-welcome">
                 <div className="headers"> About Me </div>
                 <span> Aside from coding, I am a nature enthusiast who loves to travel, a risk taker willing to try anything once, and a foodie looking for the next best slice. </span>
                 <span> Learn more about me <Link to="/bio">here.</Link></span>
             </div>
+ */}
 
-            <div className="contact-container-welcome">
-                <div className="headers"> Hire Me </div>
-                <span>              <a href="mailto:lauradondiego@gmail.com">
-                    lauradondiego@gmail.com
-                </a>
-
-                </span>
-                <span>
-                    (908) 907-0012
-            </span>
-                <span>
-                    <a href="https://github.com/lauradondiego">Github</a>
-                </span>
-                <span>
-                    <a href="https://linkedin.com/in/lauradondiego">LinkedIn</a>
-                </span>
-            </div>
         </div>
     )
 }
 
-export default Welcome
+export default Home
 // }

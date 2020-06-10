@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState, Component } from "react";
 import { NavLink } from "react-router-dom";
 import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import { Image } from "semantic-ui-react"
@@ -10,26 +10,34 @@ import topbar_me from "../components/assets/topbar_me_square.png"
 import Routes from "../components/Routes"
 import "../css/NavBar.css"
 
-export default class NavBar extends Component {
-    render() {
-        return (
-            <>
-                <div className="nav" >
-                    <div className="nav-image">
-                        <Image src={topbar_me} size="small" circular alt="image" />
-                    </div>
-
-                    <ul>
-                        <NavLink to="/welcome">Welcome</NavLink>
-                        <NavLink to="/projects">Projects</NavLink>
-                        <NavLink to="/bio">Bio</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
-                    </ul>
-                    {/* <Layout style={{ height: '300px', position: 'relative', background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) right / cover' }}>
-                    </Layout> */}
-                    {/* // TRY ADDING THE WS SCHOOLS STICKY NAV AND RENDERING COMPONENTS WITHIN A CONTENT TAG */}
+// export default class NavBar extends Component {
+//     render() {
+function NavBar() {
+    const [isActive, setIsActive] = useState()
+    return (
+        <>
+            <div className="nav" >
+                <div className="nav-image">
+                    <Image src={topbar_me} size="small" circular alt="image" />
                 </div>
-                {/* <div style={{ height: '300px', position: 'relative' }}>
+
+                <ul>
+                    <NavLink to="/home">Home</NavLink>
+                    <NavLink to="/projects">Projects</NavLink>
+                    <NavLink to="/essays" >Essays</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
+                </ul>
+                {/* <Layout style={{ height: '300px', position: 'relative', background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) right / cover' }}>
+                    </Layout> */}
+
+                {/* // TRY ADDING THE WS SCHOOLS STICKY NAV AND RENDERING COMPONENTS WITHIN A CONTENT TAG */}
+                <span className="active-maybe"
+                    onMouseEnter={() => setIsActive()}>
+                    {isActive && (
+                        <p>hi</p>
+                    )}</span>
+            </div>
+            {/* <div style={{ height: '300px', position: 'relative' }}>
                     <Layout fixedDrawer style={{ background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover' }}>
                         <Drawer>
                             <Header transparent title="Title" style={{ color: 'black' }}>
@@ -51,8 +59,8 @@ export default class NavBar extends Component {
 
 
 
-                {/* <div style={{ height: '300px', position: 'relative' }} > */}
-                {/* <Layout fixedHeader fixedDrawer>
+            {/* <div style={{ height: '300px', position: 'relative' }} > */}
+            {/* <Layout fixedHeader fixedDrawer>
                     <Header title="Welcome!">
 
                     </Header>
@@ -68,18 +76,11 @@ export default class NavBar extends Component {
                         </Navigation>
                     </Drawer> */}
 
-                {/* </Layout> */}
-                {/* </div> */}
-            </>
-        );
-    }
+            {/* </Layout> */}
+            {/* </div> */}
+        </>
+    )
 }
+export default NavBar
+// }
 
-/* <nav>
-                    <ul>
-                        <NavLink to="/welcome">Welcome</NavLink>
-                        <NavLink to="/projects">Projects</NavLink>
-                        <NavLink to="/bio">Bio</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
-                    </ul>
-                </nav> */

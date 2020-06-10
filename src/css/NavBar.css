@@ -15,7 +15,9 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
-
+/* .active-maybe {
+  color: orange;
+} */
 .nav ul {
   display: flex;
   flex-direction: column;
@@ -31,6 +33,12 @@
 
 .nav ul a:hover {
   color: rgb(160, 94, 94);
+  font-size: 28px;
+  font-weight: bold;
+}
+/* active must come after hover */
+.nav ul a .active {
+  color: red;
   font-size: 28px;
   font-weight: bold;
 }
