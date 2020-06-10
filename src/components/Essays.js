@@ -9,7 +9,7 @@ export default class Essays extends Component {
                 <div className="bio-container">
 
                     <div className="headers">Coming Soon</div>
-
+                    <a href="https://lauradondiego.substack.com/">Substack Essays</a>
                 </div>
             </>
         )
