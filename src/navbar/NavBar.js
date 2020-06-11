@@ -22,10 +22,10 @@ function NavBar() {
                 </div>
 
                 <ul>
-                    <NavLink to="/home">Home</NavLink>
-                    <NavLink to="/projects">Projects</NavLink>
-                    <NavLink to="/essays" >Essays</NavLink>
-                    <NavLink to="/contact">Contact</NavLink>
+                    <NavLink to="/home">HOME</NavLink>
+                    <NavLink to="/projects">PROJECTS</NavLink>
+                    <NavLink to="/essays" >ESSAYS</NavLink>
+                    <NavLink to="/contact">CONTACT</NavLink>
                 </ul>
                 {/* <Layout style={{ height: '300px', position: 'relative', background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) right / cover' }}>
                     </Layout> */}

@@ -1,9 +1,15 @@
 .nav {
   width: 250px;
-  background-color: rgba(
+  /* background-color: rgba(
     191,
     171,
     171,
+    0.4
+  );  */
+  background-color: rgba(
+    13,
+    14,
+    14,
     0.4
   ); /* last number sets the backgrounf opacity without changing the link or image opacity!*/
   border-top-right-radius: 8%;
@@ -29,10 +35,12 @@
 .nav ul a {
   color: black;
   padding-bottom: 26px;
+  font-weight: 800;
 }
 
 .nav ul a:hover {
-  color: rgb(160, 94, 94);
+  color: rgb(9, 61, 63);
+  /* color: rgb(160, 94, 94); */
   font-size: 28px;
   font-weight: bold;
 }
