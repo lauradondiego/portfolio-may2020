@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Link } from "react-router-dom"
 
 import { Image, Reveal, Grid } from 'semantic-ui-react'
-import bf_logo from "./assets/bf_logo.png"
+import new_bf_logo from "./assets/new_bf_logo.png"
 import bf_demo from "./assets/bf_demo.png"
 import ng_logo from "./assets/ng_logo.png"
 import ng_demo from "./assets/ng_demo.png"
@@ -27,7 +27,7 @@ export default class Projects extends Component {
                     </figure>
 
                     <figure class="effect-sadie">
-                        <img src={bf_logo} alt="img01" />
+                        <img src={new_bf_logo} alt="img02" />
                         <figcaption>
                             <h2>Better <span>Professor</span></h2>
                             <p>facilitate message retrieval, keep track of important due dates, project statuses, and letters of recommendation. </p>
