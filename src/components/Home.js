@@ -107,9 +107,10 @@ is to bring my real world design experience and creativity to life by modernizin
                 <span> Learn more about me <Link to="/bio">here.</Link></span>
             </div>
  */}
-            <div className="footer">
+
+            {/* <div className="footer">
                 <Footer />
-            </div>
+            </div> */}
         </div>
 
 
