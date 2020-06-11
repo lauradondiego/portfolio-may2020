@@ -3,6 +3,8 @@ import React, { useState, Component } from "react";
 import Projects from "./Projects"
 import Bio from "./Essays"
 import Contact from "./Contact"
+import Footer from "./Footer"
+
 import "../css/welcome.css"
 import { welcome_img } from "../components/assets/topbar_me.jpg"
 
@@ -105,8 +107,13 @@ is to bring my real world design experience and creativity to life by modernizin
                 <span> Learn more about me <Link to="/bio">here.</Link></span>
             </div>
  */}
-
+            <div className="footer">
+                <Footer />
+            </div>
         </div>
+
+
+
     )
 }
 
