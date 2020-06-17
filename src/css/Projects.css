@@ -9,7 +9,7 @@
 
 .sub-header {
   margin-left: 0;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .projects-container {
@@ -166,4 +166,3 @@ figure.effect-sadie:hover p {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-

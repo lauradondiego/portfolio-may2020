@@ -50,16 +50,16 @@ export default class Projects extends Component {
                     <figure class="effect-sadie">
                         <img src={bubbles_demo1} alt="img01" />
                         <figcaption>
-                            <h2>Bubbles <span>App</span></h2>
-                            <p>bubbles demo</p>
+                            <h2>Bubble <span>Colors</span></h2>
+                            <p> fetch the color data array, update bubble colors, and watch the fun happen!</p>
                         </figcaption>
                     </figure>
 
                     <figure class="effect-sadie">
                         <img src={football_demo1} alt="img02" />
                         <figcaption>
-                            <h2>American <span>Football Scoreboard</span></h2>
-                            <p>bubbles demo</p>
+                            <h2>Football<span>Scoreboard</span></h2>
+                            <p>Become an oldschool scorekeeper and hit the interactive buttons each time a team scores  </p>
 
                         </figcaption>
                     </figure>
@@ -67,8 +67,8 @@ export default class Projects extends Component {
                     <figure class="effect-sadie">
                         <img src={checkdin_demo1} alt="img01" />
                         <figcaption>
-                            <h2>Checkd'In <span>Travel App</span></h2>
-                            <p>travel demo</p>
+                            <h2>Checkd' <span>In</span></h2>
+                            <p>Keep all of your upcoming trip details organized and accessible in one convenient app</p>
 
                         </figcaption>
                     </figure>
