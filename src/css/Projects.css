@@ -7,7 +7,16 @@
   padding-bottom: 32px;
 } */
 
+.sub-header {
+  margin-left: 0;
+  background-color: orange;
+}
+
 .projects-container {
+  display: inline-grid;
+  max-width: 85%;
+
+  /* grid-template-columns: auto auto auto; */
   margin-left: 260px; /* Same as the width of the sidebar */
   padding: 0px 10px;
   font-size: 20px;
@@ -15,6 +24,7 @@
 }
 
 .grid figure {
+  /* display: grid; */
   position: relative;
   float: left;
   overflow: hidden;
@@ -31,9 +41,9 @@
 /* how it looks at first without hover */
 .grid figure img {
   position: relative;
-  display: block;
-  width: 100%;
+  display: inline-block;
   height: 100%;
+  width: 100%;
   /* min-height: 100%;
   max-width: 100%; */
   opacity: 0.8;
@@ -156,3 +166,4 @@ figure.effect-sadie:hover p {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+

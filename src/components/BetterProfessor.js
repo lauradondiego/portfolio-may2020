@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Link } from "react-router-dom"
 import {
     FaGooglePlay,
     FaGlasses,
@@ -20,6 +21,7 @@ export default class BetterProfessor extends Component {
     render() {
         return (
             <div className="better-professor-details">
+                <Link to="/projects">Back to projects</Link>
                 <div className="headers">Better Professor</div>
                 <span>
                     <FaRegCalendarAlt /> Sep 2019

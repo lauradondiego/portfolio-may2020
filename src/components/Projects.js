@@ -6,6 +6,9 @@ import new_bf_logo from "./assets/new_bf_logo.png"
 import bf_demo from "./assets/bf_demo.png"
 import ng_logo from "./assets/ng_logo.png"
 import ng_demo from "./assets/ng_demo.png"
+import bubbles_demo1 from "./assets/bubbles_demo1.png"
+import football_demo1 from "./assets/football_demo1.png"
+import checkdin_demo1 from "./assets/checkdin_demo1.png"
 
 import "../css/Projects.css"
 
@@ -13,8 +16,10 @@ export default class Projects extends Component {
     render() {
         return (
             <div className="projects-container">
+                <div className="headers">Projects</div>
+                <p className="sub-header">Featured Works</p>
+
                 <div className="grid">
-                    <div className="headers">Projects</div>
 
                     <figure class="effect-sadie">
                         <img src={ng_logo} alt="img01" />
@@ -33,6 +38,37 @@ export default class Projects extends Component {
                             <p>facilitate message retrieval, keep track of important due dates, project statuses, and letters of recommendation. </p>
                             <Link to="/betterprofessor">
                             </Link>
+
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p className="sub-header">Sprint Challenges</p>
+                <div className="grid">
+
+                    <figure class="effect-sadie">
+                        <img src={bubbles_demo1} alt="img01" />
+                        <figcaption>
+                            <h2>Bubbles <span>App</span></h2>
+                            <p>bubbles demo</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="effect-sadie">
+                        <img src={football_demo1} alt="img02" />
+                        <figcaption>
+                            <h2>American <span>Football Scoreboard</span></h2>
+                            <p>bubbles demo</p>
+
+                        </figcaption>
+                    </figure>
+
+                    <figure class="effect-sadie">
+                        <img src={checkdin_demo1} alt="img01" />
+                        <figcaption>
+                            <h2>Checkd'In <span>Travel App</span></h2>
+                            <p>travel demo</p>
 
                         </figcaption>
                     </figure>
