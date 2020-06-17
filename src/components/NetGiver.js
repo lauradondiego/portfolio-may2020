@@ -23,7 +23,7 @@ export default class NetGiver extends Component {
     render() {
         return (
             <>
-                <div className="net-giver-details">
+                <div className="selected-works-details">
                     <Link to="/projects">Back to projects</Link>
                     <div className="headers"> The Net Giver Work Order Management</div>
                     <techstack>

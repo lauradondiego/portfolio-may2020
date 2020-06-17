@@ -1,4 +1,4 @@
-.net-giver-details {
+.selected-works-details {
   display: flex;
   flex-direction: column;
   margin-left: 260px;
@@ -42,4 +42,7 @@ techstack {
   height: auto;
   padding-top: 20px;
   align-content: space-between;
+}
+.bf_demo {
+  width: 80%;
 }

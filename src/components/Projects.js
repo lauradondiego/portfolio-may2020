@@ -44,7 +44,7 @@ export default class Projects extends Component {
                     </figure>
                 </div>
 
-                <p className="sub-header">Sprint Challenges</p>
+                <p className="sub-header">Additional Works</p>
                 <div className="grid">
 
                     <figure class="effect-sadie">
