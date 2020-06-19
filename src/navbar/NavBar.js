@@ -1,13 +1,13 @@
-import React, { useState, Component } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
+// import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import { Image } from "semantic-ui-react"
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 
 import topbar_me from "../components/assets/topbar_me_square.png"
 
-import Routes from "../components/Routes"
+// import Routes from "../components/Routes"
 import "../css/NavBar.css"
 
 // export default class NavBar extends Component {

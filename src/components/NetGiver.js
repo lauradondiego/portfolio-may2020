@@ -3,18 +3,12 @@ import React, { Component } from "react"
 import { Link } from "react-router-dom"
 import {
     FaGooglePlay,
-    FaGlasses,
-    FaHeart,
     FaAngleRight,
-    FaRegCalendarAlt,
-    FaLaptopCode,
     FaGithub
 } from "react-icons/fa";
-import { Image } from "semantic-ui-react";
-import ng_logo from "./assets/ng_logo.png"
+// import { Image } from "semantic-ui-react";
+// import ng_logo from "./assets/ng_logo.png"
 import ng_demo from "./assets/ng_demo.png"
-import bf_logo from "./assets/bf_logo.png"
-import bf_demo from "./assets/bf_demo.png"
 
 import "../css/netgiver.css"
 

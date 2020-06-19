@@ -1,29 +1,22 @@
-import React, { useState, Component } from "react";
+import React, { useState } from "react";
 
-import Projects from "./Projects"
-import Bio from "./Essays"
-import Contact from "./Contact"
-import Footer from "./Footer"
+// import Footer from "./Footer"
 
 import "../css/welcome.css"
-import { welcome_img } from "../components/assets/topbar_me.jpg"
 
-import { Link } from "react-router-dom"
-import BetterProfessor from "./BetterProfessor"
-import { Divider } from 'semantic-ui-react'
-import bf_logo from "./assets/bf_logo.png"
-import bf_demo from "./assets/bf_demo.png"
-import ng_logo from "./assets/ng_logo.png"
-import ng_demo from "./assets/ng_demo.png"
-
-import { MdTagFaces } from "react-icons/md"
+// import { Link } from "react-router-dom"
+// import BetterProfessor from "./BetterProfessor"
+// import bf_logo from "./assets/bf_logo.png"
+// import bf_demo from "./assets/bf_demo.png"
+// import ng_logo from "./assets/ng_logo.png"
+// import ng_demo from "./assets/ng_demo.png"
 
 // export default class Welcome extends Component {
 
 //     render() {
 
 function Home() {
-    const [isShown, setIsShown] = useState(false)
+    // const [isShown, setIsShown] = useState(false)
     // LINKS SHOULD BE SPECIFIED AS A DIFFERENT COLOR THAN THE TTHEME COLORS 
     return (
         <div className="welcome-container">
