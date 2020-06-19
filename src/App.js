@@ -5,8 +5,6 @@ import "./App.css";
 import Routes from "./components/Routes"
 import NavBar from "../src/navbar/NavBar"
 //check out reveal in semantic ui for projects
-// import Test from "../src/components/Test"
-import NetGiver from "../src/components/NetGiver"
 
 function App() {
   return (
