@@ -33,4 +33,7 @@
   .App .headers {
     font-size: 38px;
   }
+  .App {
+    background-attachment: fixed;
+  }
 }
