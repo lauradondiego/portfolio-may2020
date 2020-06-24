@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 // import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import { Image } from "semantic-ui-react"
+import { FaBars, FaWindowClose } from "react-icons/fa";
+import ResponsiveMenu from 'react-responsive-navbar';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 
@@ -20,13 +22,20 @@ function NavBar() {
                 <div className="nav-image">
                     <Image src={topbar_me} size="small" circular alt="image" />
                 </div>
-
-                <ul>
-                    <NavLink to="/home">HOME</NavLink>
-                    <NavLink to="/projects">PROJECTS</NavLink>
-                    <NavLink to="/essays" >ESSAYS</NavLink>
-                    <NavLink to="/contact">CONTACT</NavLink>
-                </ul>
+                <ResponsiveMenu
+                    menuOpenButton={<FaBars />}
+                    menuCloseButton={<FaWindowClose />}
+                    changeMenuOn="600px"
+                    smallMenuClassName="small-menu"
+                    menu={
+                        <ul>
+                            <NavLink to="/home">HOME</NavLink>
+                            <NavLink to="/projects">PROJECTS</NavLink>
+                            <NavLink to="/essays" >ESSAYS</NavLink>
+                            <NavLink to="/contact">CONTACT</NavLink>
+                        </ul>
+                    }
+                />
                 {/* <Layout style={{ height: '300px', position: 'relative', background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) right / cover' }}>
                     </Layout> */}
 
