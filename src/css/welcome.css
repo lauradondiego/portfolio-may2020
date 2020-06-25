@@ -7,8 +7,23 @@
 }
 
 .theme-color {
-  color: rgb(160, 94, 94);
+  color: rgb(8, 101, 65);
   padding-left: 10px;
+}
+
+#resume {
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 10px 10px;
+  width: 22.5%;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#resume:hover {
+  color: rgb(8, 101, 65);
 }
 
 button {
@@ -47,13 +62,6 @@ img.sticky {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-}
-/* .contact-container-welcome a {
-  color: rgb(160, 94, 94);
-} */
-
-.bio-container-welcome a {
-  color: rgb(160, 94, 94);
 }
 
 @media (max-width: 600px) {

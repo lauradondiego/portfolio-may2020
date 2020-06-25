@@ -30,7 +30,7 @@ function Home() {
 is to bring my real world design experience and creativity to life by modernizing
                  web and mobile applications.
             </span>
-            <a href="https://resume.creddle.io/resume/ibr75r9gn12">Resume</a>
+            <a id="resume" href="https://resume.creddle.io/resume/ibr75r9gn12">Resume</a>
 
 
             <div className="contact-container-welcome">
