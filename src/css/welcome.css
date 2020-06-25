@@ -46,10 +46,11 @@ img.sticky {
 .contact-container-welcome {
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
 }
-.contact-container-welcome a {
+/* .contact-container-welcome a {
   color: rgb(160, 94, 94);
-}
+} */
 
 .bio-container-welcome a {
   color: rgb(160, 94, 94);
@@ -62,9 +63,13 @@ img.sticky {
     font-size: 24px;
     line-height: 30px;
     max-width: 85%;
-    
   }
   .headers {
     font-size: 32px;
   }
+}
+
+contact-links a {
+  padding: 10px;
+  color: black;
 }

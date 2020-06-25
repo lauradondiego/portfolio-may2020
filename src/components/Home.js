@@ -3,6 +3,7 @@ import React from "react";
 // import Footer from "./Footer"
 
 import "../css/welcome.css"
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa"
 
 // import { Link } from "react-router-dom"
 // import BetterProfessor from "./BetterProfessor"
@@ -33,21 +34,14 @@ is to bring my real world design experience and creativity to life by modernizin
 
 
             <div className="contact-container-welcome">
-                <div className="headers"> Hire Me </div>
-                <span>              <a href="mailto:lauradondiego@gmail.com">
-                    lauradondiego@gmail.com
-                </a>
+                {/* <div className="headers"> Hire Me </div> */}
+                <contact-links>
+                    <a href="mailto:lauradondiego@gmail.com"><FaEnvelope /></a>
 
-                </span>
-                <span>
-                    (908) 907-0012
-            </span>
-                <span>
-                    <a href="https://github.com/lauradondiego">Github</a>
-                </span>
-                <span>
-                    <a href="https://linkedin.com/in/lauradondiego">LinkedIn</a>
-                </span>
+                    <a href="https://github.com/lauradondiego"><FaGithub /></a>
+
+                    <a href="https://linkedin.com/in/lauradondiego"><FaLinkedin /></a>
+                </contact-links>
             </div>
             {/* maybe make LIFE come to color after loading? */}
             {/* SHOULD I MENTINO AWS AWARD HERE OR MAKE NEW COMPONENT? */}
