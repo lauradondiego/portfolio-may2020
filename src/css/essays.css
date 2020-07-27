@@ -6,7 +6,7 @@
   padding-bottom: 32px;
 }
 
-.contact-container {
+.essays-container {
   display: flex;
   flex-direction: column;
   margin-left: 260px; /* Same as the width of the sidebar */
@@ -17,6 +17,6 @@
   /* background-color: orange; */
 }
 
-.contact-container a {
+.essays-container a {
   color: rgb(8, 101, 65);
 }
