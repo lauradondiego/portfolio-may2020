@@ -26,19 +26,19 @@ function Home() {
 is to bring my real world design experience and creativity to life by modernizing
                  web and mobile applications.
             </span>
-            <a id="resume" href="https://resume.creddle.io/resume/ibr75r9gn12">Resume</a>
-            <a id="aws" href={aws}>AWS Certified Cloud Practitioner</a>
+            <a id="resume" href="https://resume.creddle.io/resume/ibr75r9gn12" target="_blank">Resume</a>
+            <a id="aws" href={aws} target="_blank">AWS Certified Cloud Practitioner</a>
 
 
 
             <div className="contact-container-welcome">
                 {/* <div className="headers"> Hire Me </div> */}
                 <contact-links>
-                    <a href="mailto:lauradondiego@gmail.com"><FaEnvelope /></a>
+                    <a href="mailto:lauradondiego@gmail.com" target="_blank"><FaEnvelope /></a>
 
-                    <a href="https://github.com/lauradondiego"><FaGithub /></a>
+                    <a href="https://github.com/lauradondiego" target="_blank"><FaGithub /></a>
 
-                    <a href="https://linkedin.com/in/lauradondiego"><FaLinkedin /></a>
+                    <a href="https://linkedin.com/in/lauradondiego" target="_blank"><FaLinkedin /></a>
                 </contact-links>
             </div>
             {/* maybe make LIFE come to color after loading? */}
