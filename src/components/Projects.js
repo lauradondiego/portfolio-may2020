@@ -61,7 +61,7 @@ export default class Projects extends Component {
                         <figcaption>
                             <h2>FEAR <span>City</span></h2>
                             <p> Streetwear brought to life using custom Wix features and original apparel designs and display via Photoshop </p>
-                            <a href="https://www.fearcityclothing.com/">
+                            <a href="https://www.fearcityclothing.com/" target="_blank">
                             </a>
                         </figcaption>
                     </figure>
