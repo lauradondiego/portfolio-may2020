@@ -1,16 +1,12 @@
 import React from "react";
-
+// import { Document } from 'react-pdf'
+import { Document, Page } from 'react-pdf';
+// import 'react-pdf/dist/umd/Page/AnnotationLayer.css';
 // import Footer from "./Footer"
-
+// import aws from "./assets/AWS.pdf"
+import aws from "./assets/aws.jpg"
 import "../css/welcome.css"
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa"
-
-// import { Link } from "react-router-dom"
-// import BetterProfessor from "./BetterProfessor"
-// import bf_logo from "./assets/bf_logo.png"
-// import bf_demo from "./assets/bf_demo.png"
-// import ng_logo from "./assets/ng_logo.png"
-// import ng_demo from "./assets/ng_demo.png"
 
 // export default class Welcome extends Component {
 
@@ -31,6 +27,8 @@ is to bring my real world design experience and creativity to life by modernizin
                  web and mobile applications.
             </span>
             <a id="resume" href="https://resume.creddle.io/resume/ibr75r9gn12">Resume</a>
+            <a id="aws" href={aws}>AWS Certified Cloud Practitioner</a>
+
 
 
             <div className="contact-container-welcome">

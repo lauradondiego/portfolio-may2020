@@ -26,6 +26,11 @@
   color: rgb(8, 101, 65);
 }
 
+#aws {
+  color: rgb(8, 101, 65);
+  padding-top: 100px;
+}
+
 button {
   border-radius: 20px;
   border-style: hidden;
@@ -62,6 +67,7 @@ img.sticky {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 600px) {

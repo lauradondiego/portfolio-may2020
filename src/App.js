@@ -17,8 +17,4 @@ function App() {
   );
 }
 
-// #C39885 pinkish nude color 
-// #B8A28F pale nude color
-// #D4D3CB grey color
-// Gt America font
 export default App;
