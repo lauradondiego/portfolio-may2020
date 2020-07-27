@@ -30,6 +30,9 @@
   color: rgb(8, 101, 65);
   padding-top: 100px;
 }
+#aws:hover {
+  font-size: 50px;
+}
 
 button {
   border-radius: 20px;
@@ -86,4 +89,8 @@ img.sticky {
 contact-links a {
   padding: 10px;
   color: black;
+}
+
+contact-links a:hover {
+  color: rgb(8, 101, 65);
 }
