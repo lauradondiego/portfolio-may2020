@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Lora:wght@700&family=Merriweather:wght@700&family=Noticia+Text:wght@700&family=PT+Serif:wght@700&family=Roboto+Slab:wght@700&family=Titillium+Web:wght@700&display=swap");
-/* body {
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap"); /* body {
   font-size: 50px;
   line-height: 50px;
   font-weight: 300;
@@ -11,20 +10,21 @@
   background-size: cover;
   background-attachment: fixed;
   font-size: 48px;
-  line-height: 50px;
-  font-weight: 300;
+  line-height: 58px;
+  /* font-weight: 300; */
 
   /* font-family: "Merriweather", serif; */
   /* font-family: "Noticia Text", serif; */
-  font-family: "PT Serif", serif;
+  font-family: "Source Sans Pro", sans-serif;
   /* font-family: "Roboto Slab", serif; */
 }
 .App .headers {
   /* color: black;
   font-size: 50px;
   line-height: 50px; */
+  font-family: "Source Sans Pro", sans-serif;
+
   font-size: 58px;
-  font-family: "PT Serif", serif;
   padding-top: 75px;
   padding-bottom: 32px;
 }

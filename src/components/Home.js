@@ -20,7 +20,7 @@ function Home() {
             {/* <img className="sticky" src={welcome_img} alt="Avatar" /> */}
             <div className="headers">  Hello! </div>
 
-            <span> I am a Full-Stack Web Developer that specializes in building JS based React Apps as well as Python, design,
+            <span> I am a Full-Stack Web Developer that specializes in building JS based React Apps as well as Python, UI design,
             &amp; full-stack sites.
                   <span class="theme-color">My mission </span>
 is to bring my real world design experience and creativity to life by modernizing
