@@ -9,6 +9,7 @@ import ng_logo from "./assets/ng_logo.png"
 import bubbles_demo1 from "./assets/bubbles_demo1.png"
 import football_demo1 from "./assets/football_demo1.png"
 import checkdin_demo1 from "./assets/checkdin_demo1.png"
+import fc_logo from "./assets/fc_logo.png"
 
 import "../css/Projects.css"
 
@@ -52,6 +53,16 @@ export default class Projects extends Component {
                         <figcaption>
                             <h2>Bubble <span>Colors</span></h2>
                             <p> fetch the color data array, update bubble colors, and watch the fun happen!</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="effect-sadie">
+                        <img src={fc_logo} alt="img01" />
+                        <figcaption>
+                            <h2>FEAR <span>City</span></h2>
+                            <p> Streetwear brought to life using custom Wix features and original apparel designs and display via Photoshop </p>
+                            <a href="https://www.fearcityclothing.com/">
+                            </a>
                         </figcaption>
                     </figure>
 
